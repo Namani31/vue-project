@@ -6,6 +6,7 @@ import LoginView from '../views/LoginView.vue'
 import DataBinding from '../views/DataBinding.vue';
 import dataBindingInputText from "../views/DataBindingInputText.vue";
 import dataBindingInputNumber from "../views/DataBindingInputNumber.vue";
+import dataBindingTextarea from "../views/DataBindingTextarea.vue";
 
 const routes = [
   {
@@ -50,6 +51,11 @@ const routes = [
     path: '/databindinginputnumber',
     name: 'databindinginputnumber',
     component: dataBindingInputNumber
+  },
+  {
+    path: '/databindingtextarea',
+    name: 'databindingtextarea',
+    component: dataBindingTextarea
   }
 ]
 

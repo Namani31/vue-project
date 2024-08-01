@@ -5,6 +5,8 @@
     <router-link to="/test">테스트</router-link>
     <router-link to="/basic">3. 컴포넌트(기본)</router-link>
     <router-link to="/login">Login</router-link>
+    <router-link to="/databindingtextarea">Textarea Test</router-link>
+    
   </nav>
   <div id="nav">
     <router-link to="/">Home</router-link> |
