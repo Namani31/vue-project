@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import TestView from '../views/TestView.vue'
 import BasicView from '../views/BasicView.vue'
 import LoginView from '../views/LoginView.vue'
+import DataBinding from '../views/DataBinding.vue';
 
 const routes = [
   {
@@ -33,6 +34,11 @@ const routes = [
     name: 'login',
     component: LoginView
   },
+  {
+    path: '/databinding',
+    name: 'dataBinding',
+    component: DataBinding
+  }
 ]
 
 const router = createRouter({
