@@ -9,7 +9,8 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/databinding">Data Binding</router-link> |
-    <router-link to="/databindinginputtext">Data Binding Input Test</router-link>
+    <router-link to="/databindinginputtext">Data Binding Input Text</router-link> |
+    <router-link to="/databindinginputnumber">Data Binding Input Number</router-link>
     <br/><br/><br/>
   </div>
   <router-view />
