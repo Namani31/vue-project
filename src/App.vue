@@ -5,14 +5,15 @@
     <router-link to="/test">테스트</router-link>
     <router-link to="/basic">3. 컴포넌트(기본)</router-link>
     <router-link to="/login">Login</router-link>
-    <router-link to="/databindingtextarea">Textarea Test</router-link>
+
     
   </nav>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/databinding">Data Binding</router-link> |
+    <router-link to="/databindingselect">Select Test</router-link>
+    <!-- <router-link to="/databinding">Data Binding</router-link> |
     <router-link to="/databindinginputtext">Data Binding Input Text</router-link> |
-    <router-link to="/databindinginputnumber">Data Binding Input Number</router-link>
+    <router-link to="/databindinginputnumber">Data Binding Input Number</router-link> -->
     <br/><br/><br/>
   </div>
   <router-view />
