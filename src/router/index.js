@@ -2,12 +2,16 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import TestView from '../views/TestView.vue'
 import BasicView from '../views/BasicView.vue'
-import LoginView from '../views/LoginView.vue'
-import DataBinding from '../views/DataBinding.vue';
-import dataBindingInputText from "../views/DataBindingInputText.vue";
-import dataBindingInputNumber from "../views/DataBindingInputNumber.vue";
-import dataBindingTextarea from "../views/DataBindingTextarea.vue";
-import dataBindingSelect from "../views/DataBindingSelect.vue";
+import DeepView from '../views/DeepView.vue'
+import DeepView2 from '../views/DeepView2.vue'
+import DeepView3 from '../views/DeepView3.vue'
+import CalculatorView1 from '../views/CalculatorView1.vue'
+import CalculatorView2 from '../views/CalculatorView2.vue'
+import CalculatorView3 from '../views/CalculatorView3.vue'
+import CalculatorView4 from '../views/CalculatorView4.vue'
+import MixView from '../views/MixView.vue'
+import UserView from '../views/UserView.vue'
+import MemberView from '../views/MemberView.vue'
 
 const routes = [
   {
@@ -34,35 +38,57 @@ const routes = [
     component: BasicView
   },
   {
-    path: '/login',
-    name: 'login',
-    component: LoginView
+    path: '/deep',
+    name: 'deep',
+    component: DeepView
   },
   {
-    path: '/databinding',
-    name: 'dataBinding',
-    component: DataBinding
+    path: '/deep2',
+    name: 'deep2',
+    component: DeepView2
   },
   {
-    path: '/databindinginputtext',
-    name: 'databindinginputtext',
-    component: dataBindingInputText
+    path: '/deep3',
+    name: 'deep3',
+    component: DeepView3
   },
   {
-    path: '/databindinginputnumber',
-    name: 'databindinginputnumber',
-    component: dataBindingInputNumber
+    path: '/calculator1',
+    name: 'calculator1',
+    component: CalculatorView1
   },
   {
-    path: '/databindingtextarea',
-    name: 'databindingtextarea',
-    component: dataBindingTextarea
+    path: '/calculator2',
+    name: 'calculator2',
+    component: CalculatorView2
   },
   {
-    path: '/databindingselect',
-    name: 'databindingselect',
-    component: dataBindingSelect
+    path: '/calculator3',
+    name: 'calculator3',
+    component: CalculatorView3
+  },
+  {
+    path: '/calculator4',
+    name: 'calculator4',
+    component: CalculatorView4
+  },
+  {
+    path: '/mixin',
+    name: 'mixin',
+    component: MixView
+  },
+  {
+    path: '/user',
+    name: 'user',
+    component: UserView
+  },
+  {
+    path: '/member',
+    name: 'member',
+    component: MemberView
   }
+
+  
 ]
 
 const router = createRouter({
